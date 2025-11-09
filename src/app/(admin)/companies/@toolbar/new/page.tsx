@@ -1,7 +1,3 @@
-import React from "react";
-
-export interface PageProps {}
-
-export default function Page({}: PageProps) {
-    return null;
+export default function Page() {
+  return null;
 }

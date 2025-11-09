@@ -1,8 +1,6 @@
-import React from "react";
-import Header from "@/app/components/header";
+import React from 'react';
+import Header from '@/app/components/header';
 
-export interface PageProps {}
-
-export default function Page({}: PageProps) {
-    return <Header>Companies</Header>
+export default function Page() {
+  return <Header>Companies</Header>;
 }

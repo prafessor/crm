@@ -1,8 +1,7 @@
 'use client';
 
-import { ButtonProps } from "@headlessui/react";
 import { useEffect, useState } from "react";
-import Button from "./button";
+import Button, { ButtonProps } from "@/app/components/button";
 
 export default function MagicButton(props: ButtonProps) {
     const [ count, setCount ] = useState(0);

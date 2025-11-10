@@ -17,7 +17,6 @@ export default async function Page({ params }: PageProps) {
   });
 
   const company = queryClient.getQueryData(['companies', params.id]) as Company;
-  console.log(company);
 
   return <Header>{company?.title}</Header>;
 }
